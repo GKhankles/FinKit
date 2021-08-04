@@ -28,6 +28,90 @@
   color: #61dafb;
 }
 
+.background{
+  background-color: turquoise;
+}
+
+.title{
+  position: absolute;
+  right: 44%;
+  top: 40%;
+}
+
+.title1{
+  position: absolute;
+  right: 34%;
+  top: 15%;
+  font-size: 700%;
+}
+
+.title2{
+  position: absolute;
+  right: 42.5%;
+  top: 46%;
+  font-size: 120%;
+}
+
+.box1 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 12px;
+  background-color:teal;
+  border: none;
+  top: 60%;
+  right: 80%;
+  color: white;
+}
+
+.box2 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 12px;
+  background-color:teal;
+  border: none;
+  top: 60%;
+  right: 6%;
+  color: white;
+}
+
+.box3 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 12px;
+  background-color:teal;
+  border: none;
+  top: 60%;
+  right: 43%;
+  color: white;
+}
+
+.box4 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 12px;
+  background-color:teal;
+  border: none;
+  top: 60%;
+  right: 61.5%;
+  color: white;
+}
+
+.box5 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 12px;
+  background-color:teal;
+  border: none;
+  top: 60%;
+  right: 24.5%;
+  color: white;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

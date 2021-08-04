@@ -35,12 +35,40 @@ function MyVerticallyCenteredModal(props) {
 
 function App() {
   const [modalShow, setModalShow] = React.useState(false);
+  const [modal2Show, setModal2Show] = React.useState(false);
 
   return (
     <>
-    <Button variant="primary" onClick={() => setModalShow(true)}>
-      Launch vertically centered modal
-    </Button>
+    <div>
+      <h2 class="title1">F I N K I T</h2>
+      <input class="title"></input>
+      <h2 class="title2">what  are  your  intentions?</h2>
+    </div>
+    <div>
+    <button variant="primary" id="investment" class="box1" onClick={() => setModalShow(true)}>
+      Investment
+    </button>
+    </div>
+    <div>
+    <button variant="primary" id = "info" class="box2" onClick={() => setModalShow(true)}>
+      Budgeting 
+    </button>
+    </div>
+    <div>
+    <button variant="primary" id = "info" class="box3" onClick={() => setModalShow(true)}>
+      Time Value
+    </button>
+    </div>
+    <div>
+    <button variant="primary" id = "info" class="box4" onClick={() => setModalShow(true)}>
+      Student Insurance
+    </button>
+    </div>
+    <div>
+    <button variant="primary" id = "info" class="box5" onClick={() => setModalShow(true)}>
+      Rainy Day Fund
+    </button>
+    </div>
 
     <MyVerticallyCenteredModal
       show={modalShow}
