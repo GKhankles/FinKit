@@ -32,23 +32,28 @@
   background-color: turquoise;
 }
 
+.input-container {
+  text-align:center;
+}
+
 .title{
-  position: absolute;
-  right: 44%;
-  top: 40%;
+  margin: 0 auto;
 }
 
 .title1{
-  position: absolute;
-  right: 34%;
-  top: 15%;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  height: 150px;
+  margin-top: 200px;
   font-size: 700%;
+  white-space: nowrap;
 }
 
 .title2{
-  position: absolute;
-  right: 42.5%;
-  top: 46%;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
   font-size: 120%;
 }
 
@@ -57,63 +62,67 @@
 }
 
 .box1 {
-  position: absolute;
   height: 200px;
   width: 200px;
   border-radius: 12px;
   background-color:teal;
   border: none;
-  top: 60%;
-  right: 80%;
+  /* top: 60%;
+  right: 80%; */
   color: white;
 }
 
 .box2 {
-  position: absolute;
   height: 200px;
   width: 200px;
   border-radius: 12px;
   background-color:teal;
   border: none;
-  top: 60%;
-  right: 6%;
+  /* top: 60%;
+  right: 6%; */
   color: white;
 }
 
 .box3 {
-  position: absolute;
   height: 200px;
   width: 200px;
   border-radius: 12px;
   background-color:teal;
   border: none;
-  top: 60%;
-  right: 43%;
+  /* top: 60%;
+  right: 43%; */
   color: white;
 }
 
 .box4 {
-  position: absolute;
   height: 200px;
   width: 200px;
   border-radius: 12px;
   background-color:teal;
   border: none;
-  top: 60%;
-  right: 61.5%;
+  /* top: 60%;
+  right: 61.5%; */
   color: white;
 }
 
 .box5 {
-  position: absolute;
   height: 200px;
   width: 200px;
   border-radius: 12px;
   background-color:teal;
   border: none;
-  top: 60%;
-  right: 24.5%;
+  /* top: 60%;
+  right: 24.5%; */
   color: white;
+}
+
+.calculators {
+  text-align: center;
+}
+
+.boxes {
+  display:inline-block;
+  width: 300px;
 }
 
 @keyframes App-logo-spin {

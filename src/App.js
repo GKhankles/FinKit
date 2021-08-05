@@ -145,33 +145,37 @@ function App() {
     <>
     <div>
       <h2 class="title1">F I N K I T</h2>
-      <input onChange={FilterHelper} class="title"></input>
+      <div class="input-container">
+        <input onChange={FilterHelper} class="title"></input>
+      </div>
       <h2 class="title2">{defaultMsg}</h2>
     </div>
-    <div>
-    <button variant="primary" id="investment" class="box1" onClick={() => setModalShow(true)}>
-      Savings Calculator
-    </button>
-    </div>
-    <div>
-    <button variant="primary" id = "info" class="box2" onClick={() => setModalShow(true)}>
-      Budgeting Calculator
-    </button>
-    </div>
-    <div>
-    <button variant="primary" id = "info" class="box3" onClick={() => setModalShow(true)}>
-      Time Value Calculator
-    </button>
-    </div>
-    <div>
-    <button variant="primary" id = "info" class="box4" onClick={() => setModal2Show(true)}>
-      Student Health Insurance
-    </button>
-    </div>
-    <div>
-    <button variant="primary" id = "info" class="box5" onClick={() => setModalShow(true)}>
-      Rainy Day Fund
-    </button>
+    <div class="calculators">
+      <div class="boxes">
+      <button variant="primary" id="investment" class="box1" onClick={() => setModalShow(true)}>
+        Savings Calculator
+      </button>
+      </div>
+      <div class="boxes">
+      <button variant="primary" id = "info" class="box2" onClick={() => setModalShow(true)}>
+        Budgeting Calculator
+      </button>
+      </div>
+      <div class="boxes">
+      <button variant="primary" id = "info" class="box3" onClick={() => setModalShow(true)}>
+        Time Value Calculator
+      </button>
+      </div>
+      <div class="boxes">
+      <button variant="primary" id = "info" class="box4" onClick={() => setModal2Show(true)}>
+        Student Health Insurance
+      </button>
+      </div>
+      <div class="boxes">
+      <button variant="primary" id = "info" class="box5" onClick={() => setModalShow(true)}>
+        Rainy Day Fund
+      </button>
+      </div>
     </div>
 
     <SavingsModal
