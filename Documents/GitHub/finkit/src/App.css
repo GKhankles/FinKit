@@ -52,6 +52,10 @@
   font-size: 120%;
 }
 
+.inputPadding{
+  margin-bottom: 20px;
+}
+
 .box1 {
   position: absolute;
   height: 200px;
